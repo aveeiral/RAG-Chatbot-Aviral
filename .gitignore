@@ -78,3 +78,13 @@ build/
 
 # Ignore node_modules (if using JS dependencies)
 node_modules/
+
+# Ignore vector database files
+vector_db/
+*.faiss
+*.db
+*.npy
+*.pkl
+*.jsonl
+chroma_db/
+faiss_index/
