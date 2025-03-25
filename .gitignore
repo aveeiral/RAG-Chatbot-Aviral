@@ -1,0 +1,80 @@
+# Ignore virtual environment
+venv/
+.env
+*.venv/
+
+# Ignore API keys and credentials
+.env
+config.json
+secrets.json
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Ignore dependency files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore compiled code
+*.so
+*.dll
+*.dylib
+
+# Ignore FFmpeg downloads (if any)
+ffmpeg.exe
+ffmpeg/
+
+# Ignore temporary and log files
+*.log
+*.tmp
+*.bak
+.DS_Store
+
+# Ignore Streamlit and Gradio cache
+.gradio/
+.streamlit/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore model weights and embeddings (if any)
+models/
+*.pt
+*.onnx
+*.h5
+
+# Ignore large dataset files
+data/
+datasets/
+*.csv
+*.json
+*.xlsx
+*.parquet
+
+# Ignore output audio files (if saving locally)
+*.wav
+*.mp3
+*.ogg
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Ignore build artifacts
+dist/
+build/
+*.egg-info/
+
+# Ignore node_modules (if using JS dependencies)
+node_modules/
