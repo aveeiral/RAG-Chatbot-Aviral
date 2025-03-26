@@ -30,7 +30,10 @@ pip install -r requirements.txt
 ## 🔑 Environment Variables
 Set up your API keys in an `.env` file:
 ```
-OPENAI_API_KEY=your_openai_api_key
+OPENAI_API_KEY=your_openai_api_key  (Link to get Open AI APi Key : https://platform.openai.com/api-keys)
+Eleven_API_KEY = your API Key       (Link to get Eleven APi Key : https://elevenlabs.io/app/settings/api-keys)
+
+
 ```
 
 ## 🎙️ How to Run the Chatbot
