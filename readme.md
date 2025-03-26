@@ -35,7 +35,8 @@ OPENAI_API_KEY=your_openai_api_key
 
 ## 🎙️ How to Run the Chatbot
 ```bash
-python app.py
+python ingest_database.py (It has to be run only once)
+python chatbot.py
 ```
 Then, open **http://127.0.0.1:7860/** in your browser to chat with the bot.
 
